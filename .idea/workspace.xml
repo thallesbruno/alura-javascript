@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b911d2f7-6335-4024-9677-3f0149fc222f" name="Default Changelist" comment="" />
+    <list default="true" id="b911d2f7-6335-4024-9677-3f0149fc222f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/calcula-imc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/calcula-imc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste-js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/teste-js/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +34,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/teste-js/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -47,11 +55,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601044356048</updated>
-      <workItem from="1601044357454" duration="2611000" />
+      <workItem from="1601044357454" duration="3622000" />
+      <workItem from="1601126492231" duration="7316000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="169" key="SettingsEditor" timestamp="1601127839323">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1280.800@0.0.1920.1050" timestamp="1601127839323" />
   </component>
 </project>

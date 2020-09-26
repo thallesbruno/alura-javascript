@@ -1,36 +1,56 @@
 <!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="../favicon.ico" type="/image/x-icon">
-    <title>Agendamentos</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1 class="titulo">Agendamento de Consultas</h1>
-        </div>
-    </header>
-    <main>
-        <section>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../favicon.ico" type="/image/x-icon">
+        <title>Agendamentos</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
             <div class="container">
+                <h1 class="titulo">Agendamento de Consultas</h1>
+            </div>
+        </header>
+        <main>
+            <section class="container">
                 <h2>Horários Agendados</h2>
                 <table>
                     <thead>
                         <tr class="container">
-                            <td>Nome:</td>
-                            <td>Horário inicial</td>
-                            <td>Horário final</td>
-                            <td>Especialidade</td>
+                            <th>Nome</th>
+                            <th>Horário inicial</th>
+                            <th>Horário final</th>
+                            <th>Médico</th>
                         </tr>
                     </thead>
-                </table>
-            </div>
-        </section>
-    </main>
+                    <tbody id="tabela-pacientes">
+                        <tr class="paciente">
+                            <td class="info-nome">Thalles</td>
+                            <td class="info-hrinicial">09:00</td>
+                            <td class="info-hrfinal">10:00</td>
+                            <td class="info-medico">Dr. Ricardo</td>
+                        </tr>
 
-    <script src="js/script.js"></script>
-</body>
+                        <tr class="paciente">
+                            <td class="info-nome">Bruno</td>
+                            <td class="info-hrinicial">10:00</td>
+                            <td class="info-hrfinal">11:00</td>
+                            <td class="info-medico">Dr. Ricardo</td>
+                        </tr>
+
+                        <tr class="paciente">
+                            <td class="info-nome">Carlos</td>
+                            <td class="info-hrinicial">09:00</td>
+                            <td class="info-hrfinal">10:00</td>
+                            <td class="info-medico">Dr. Jonas</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
 </html>

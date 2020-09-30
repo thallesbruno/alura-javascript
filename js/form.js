@@ -9,9 +9,13 @@ botaoAdicionar.addEventListener("click", function(event){
 
     var pacienteTr = montaTr(paciente);
 
-    if (!validaPaciente(paciente)){
-      console.log("Paciente inválido!");
-      return;
+    var erros = validaPaciente(paciente);
+
+    console.log(erros);
+
+    if (erros.length > 0){
+        exibeMensagensDeErro(erros);
+        return;
     };
 
     var tabela = document.querySelector("#tabela-pacientes");
@@ -21,6 +25,15 @@ botaoAdicionar.addEventListener("click", function(event){
     form.reset();
 
 });
+
+function exibeMensagensDeErro(erros){
+    var ul = document.querySelector(("mensagens-erro"));
+    erros.forEach(function (erro){
+        var li = document.createElement("li");
+        li.textContent = erro;
+        ul.appendChild(li);
+    });
+} ;
 
 function obtemPacienteDoForm(form){
 
@@ -57,9 +70,10 @@ function montaTd(dado, classe){
 };
 
 function validaPaciente(paciente){
-    if(validaPeso(paciente.peso)){
-        return true;
-    } else{
-        return false;
-    }
+    var erros = [];
+
+    if(!validaPeso(paciente.peso)) erros.push("Peso ´é inválido!");
+    if (!validaAltura(paciente.altura)) erros.push("Altura é inválida!");
+
+    return erros;
 };

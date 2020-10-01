@@ -24,10 +24,17 @@ botaoAdicionar.addEventListener("click", function(event){
 
     form.reset();
 
+    var mensagensErro = document.querySelector(("#mensagens-erro"));
+
+    mensagensErro.innerHTML = "";
+
 });
 
 function exibeMensagensDeErro(erros){
     var ul = document.querySelector(("#mensagens-erro"));
+
+    ul.innerHTML = "";
+
     erros.forEach(function (erro){
         var li = document.createElement("li");
         li.textContent = erro;

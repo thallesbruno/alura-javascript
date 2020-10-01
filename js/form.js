@@ -72,8 +72,29 @@ function montaTd(dado, classe){
 function validaPaciente(paciente){
     var erros = [];
 
-    if(!validaPeso(paciente.peso)) erros.push("Peso é inválido!");
-    if (!validaAltura(paciente.altura)) erros.push("Altura é inválida!");
+    if (paciente.nome.length == 0){
+        erros.push("Informe o nome!");
+    }
+
+    if (!validaPeso(paciente.peso)){
+        erros.push("Peso é inválido!");
+    };
+
+    if (paciente.peso.length == 0){
+        erros.push("Informe um peso válido!");
+    };
+
+    if (!validaAltura(paciente.altura)){
+        erros.push("Altura é inválida!");
+    }
+
+    if (paciente.altura.length == 0){
+        erros.push("Informe uma altura válida!");
+    };
+
+    if (paciente.gordura.length == 0){
+        erros.push("Informe o percentual de gordura!");
+    };
 
     return erros;
 };

@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b911d2f7-6335-4024-9677-3f0149fc222f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/remover-paciente.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/filtra.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
@@ -46,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -55,11 +58,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Thalles\WebstormProjects\alura-javascript\teste-js\js" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Thalles\WebstormProjects\alura-javascript\teste-js\css" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thalles\WebstormProjects\alura-javascript\teste-js\js" />
       <recent name="C:\Users\Thalles\WebstormProjects\alura-javascript\teste-js\css" />
     </key>
   </component>
@@ -76,6 +79,7 @@
       <workItem from="1601257598334" duration="892000" />
       <workItem from="1601415757081" duration="5854000" />
       <workItem from="1601512407656" duration="4954000" />
+      <workItem from="1601595037428" duration="3654000" />
     </task>
     <servers />
   </component>
@@ -92,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="169" key="SettingsEditor" timestamp="1601127839323">
